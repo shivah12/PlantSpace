@@ -13,7 +13,7 @@
 <ul>
   <li>React.js for the front-end development.</li>
 <li>Responsive design for a seamless user experience across devices.</li>
-<li>Giphy API integration for dynamic and engaging content.</li>
+
 </ul>
 
 <h2>Get Started:</h2>
