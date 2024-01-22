@@ -5,8 +5,7 @@
 
 <h2>Key Features:</h2>
 <ul>
-<li>Explore a curated collection of plants and gardening tips.</li>
-<li>Engage in virtual plant consultations for personalized care.</li>
+<li>Explore a curated collection of plants.</li>
 <li>Learn about the benefits of incorporating plants into daily life.</li>
 <li>Create a serene and green environment in your home and workspace.</li>
 </ul>
