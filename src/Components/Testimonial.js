@@ -7,16 +7,7 @@ const Testimonial = () => {
     <div className="work-section-wrapper">
       <div className="work-section-top">
         <div className="testimonial">
-        <iframe
-          src="https://i.pinimg.com/originals/88/00/b9/8800b95c0e6fd715de02a8f5ddfb046b.gif"
-          width="500"
-          height="490"
-          frameBorder="0"
-          className="giphy-embed"
-          allowFullScreen
-          title="Giphy"
-        ></iframe>
-      
+        
         </div>
         <p className="ternary-subheading">Testimonial</p>
         
