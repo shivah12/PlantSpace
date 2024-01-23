@@ -9,12 +9,12 @@ const About = () => {
   const handlePlayVideo = () => {
     setVideoPlaying(true);
     
-    
+   
     window.open(process.env.PUBLIC_URL + "/video.mp4", "_blank");
   };
 
   return (
-    <div className="about-section-container">
+    <div className="about-section-container" id="about">
       <div className="about-background-image-container">
         <img src={AboutBackground} alt="" />
       </div>
