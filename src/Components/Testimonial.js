@@ -6,8 +6,9 @@ const Testimonial = () => {
   return (
     <div className="work-section-wrapper">
       <div className="work-section-top">
-        <div className="testimonial">
+        <div className="testimonial" id="testimonial"> {/* Set the id here */}
         
+      
         </div>
         <p className="ternary-subheading">Testimonial</p>
         
@@ -28,7 +29,7 @@ const Testimonial = () => {
           <AiFillStar />
           <AiFillStar />
         </div>
-        <h2>Grace T. - Plant Enthusiast</h2>
+        <h2>John D. - Plant Enthusiast</h2>
         
       </div>
     </div>
