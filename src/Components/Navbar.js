@@ -16,6 +16,12 @@ import CommentRoundedIcon from "@mui/icons-material/CommentRounded";
 import PhoneRoundedIcon from "@mui/icons-material/PhoneRounded";
 import ShoppingCartRoundedIcon from "@mui/icons-material/ShoppingCartRounded";
 
+const scrollToSection = (sectionId) => {
+  const section = document.getElementById(sectionId);
+  if (section) {
+    section.scrollIntoView({ behavior: "smooth" });
+  }
+};
 
 const Navbar = () => {
   const [openMenu, setOpenMenu] = useState(false);
@@ -23,35 +29,46 @@ const Navbar = () => {
     {
       text: "Home",
       icon: <HomeIcon />,
+      section: "home",
     },
     {
       text: "About",
       icon: <InfoIcon />,
+      section: "about",
     },
     {
       text: "Testimonials",
       icon: <CommentRoundedIcon />,
+      section: "testimonial",
     },
     {
       text: "Contact",
       icon: <PhoneRoundedIcon />,
+      section: "contact",
     },
     {
-      text: "Cart",
+      text: "Store",
       icon: <ShoppingCartRoundedIcon />,
+      section: "store",
     },
   ];
+
   return (
     <nav>
       <div className="nav-logo-container">
         <h1>PlantSpace.</h1>
       </div>
       <div className="navbar-links-container">
-        <a href="#home">Home</a>
-        <a href="#about">About</a>
-        <a href="#testimonial">Testimonials</a>
-        <a href="#contact">Contact</a>
-        <button className="primary-button"><BsCart2 className="navbar-cart-icon" /> Store </button>
+        {menuOptions.map((item) => (
+          <a
+            key={item.text}
+            onClick={() => scrollToSection(item.section)}
+            href={`#${item.section}`}
+          >
+            {item.text}
+          </a>
+        ))}
+        <button className="primary-button"> Sign Up </button>
       </div>
       <div className="navbar-menu-container">
         <HiOutlineBars3 onClick={() => setOpenMenu(true)} />
@@ -66,7 +83,7 @@ const Navbar = () => {
           <List>
             {menuOptions.map((item) => (
               <ListItem key={item.text} disablePadding>
-                <ListItemButton>
+                <ListItemButton onClick={() => scrollToSection(item.section)}>
                   <ListItemIcon>{item.icon}</ListItemIcon>
                   <ListItemText primary={item.text} />
                 </ListItemButton>
