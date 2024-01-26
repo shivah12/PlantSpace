@@ -33,5 +33,10 @@ npm install
  npm start
 
 ```
+<li>To install the Material UI components</li>
+
+```
+ npm install @mui/material @emotion/react @emotion/styled
+```
 </ul>
 <img src="plantspace.png" alt="PlantSpacehome">
