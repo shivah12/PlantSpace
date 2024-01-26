@@ -19,12 +19,13 @@
 <h2>Get Started:</h2>
 <ul>
   <li>Clone the repository.</li>
-<li>Install dependencies using 
-  ```
-  npm install
-  ```
+<li>Install dependencies using
 
 </li>
+
+```
+npm install
+```
 <li>Run the application with npm start.</li>
 </ul>
 <img src="plantspace.png" alt="PlantSpacehome">
