@@ -20,7 +20,8 @@
 <ul>
   <li>Clone the repository.</li>
 <li>Install dependencies using 
-  ```npm install
+  ```
+  npm install
   ```
 
 </li>
