@@ -20,5 +20,9 @@
 <ul>
   <li>Clone the repository.</li>
 <li>Install dependencies using npm install.</li>
+  ```sh
+  
+  ```
 <li>Run the application with npm start.</li>
 </ul>
+<img src="plantspace.png" alt="PlantSpacehome">
