@@ -26,6 +26,12 @@
 ```
 npm install
 ```
-<li>Run the application with npm start.</li>
+<li>Run the application with
+</li>
+
+```
+ npm start
+
+```
 </ul>
 <img src="plantspace.png" alt="PlantSpacehome">
