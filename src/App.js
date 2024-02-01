@@ -6,7 +6,7 @@ import Testimonial from "./Components/Testimonial";
 import Contact from "./Components/Contact";
 import Footer from "./Components/Footer";
 
-function App() {
+function App() { 
   return (
     <div className="App">
       <Home />
